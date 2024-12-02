@@ -5,7 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ComfortJourney</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
+        <style>
+          body {
+    background: #043565;
+    font-family: 'Flamenco', serif;
+    }
+      </style>   
+      </head>
     <body>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -43,7 +49,7 @@
             <th scope="col">Style</th>
             <th scope="col">Description</th>
             <th scope="col">Dimensions and price</th>
-            <th scope="col">Add to Cart</th>
+            <th scope="col">Checkout</th>
           
           </tr>
         </thead>
@@ -51,28 +57,116 @@
           <tr>
             <td><img src="bay.jpg" class="img-fluid rounded-start" alt="Bay Window" style="max-width: 300px;"></td>
             <td>Bay</td>
-            <td>Introducing our enchanting Bay Windows of Wonder – a breathtaking blend of elegance and magic that not only transforms your living space but also transports you to realms beyond imagination! With stunning panoramic views crafted from crystal-clear glass and seamlessly integrated with innovative teleportation technology, you can step through these magnificent windows and find yourself in picturesque landscapes, vibrant cities, or even mystical worlds within seconds. Each window is designed with intricate artistry, available in various styles to perfectly complement your home décor. Elevate your experience of home and adventure – with our Bay Windows, every glance holds the promise of an extraordinary journey! </td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our enchanting Bay Windows of Wonder – a breathtaking blend of elegance and magic that not only transforms your living space but also transports you to realms beyond imagination! With stunning panoramic views crafted from crystal-clear glass and seamlessly integrated with innovative teleportation technology, you can step through these magnificent windows and find yourself in picturesque landscapes, vibrant cities, or even mystical worlds within seconds. Each window is designed with intricate artistry, available in various styles to perfectly complement your home décor. Elevate your experience of home and adventure – with our Bay Windows, every glance holds the promise of an extraordinary journey! 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div> </td>
             <td>Dimensions: 3 feet by 6 feet | Price: $1,499</td>
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
             <td><img src="eg.jpg" class="img-fluid rounded-start" alt="Egress" style="max-width: 300px;" width="1200px" height="1200px"></td>
             <td>Egress</td>
-            <td>Introducing our revolutionary Egress Windows – the ultimate gateway to adventure! Designed with cutting-edge teleportation technology, these stunning windows not only provide essential natural light and ventilation but also allow you to step directly into your chosen destination in the blink of an eye. Crafted from durable, energy-efficient materials and elegantly designed to match any home aesthetic, our Egress Windows ensure safety and style. Whether you dream of visiting serene beaches, bustling cities, or tranquil forests, make your home a portal to endless possibilities. Embrace the future of home design and travel – teleportation has never looked so good!</td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our revolutionary Egress Windows – the ultimate gateway to adventure! Designed with cutting-edge teleportation technology, these stunning windows not only provide essential natural light and ventilation but also allow you to step directly into your chosen destination in the blink of an eye. Crafted from durable, energy-efficient materials and elegantly designed to match any home aesthetic, our Egress Windows ensure safety and style. Whether you dream of visiting serene beaches, bustling cities, or tranquil forests, make your home a portal to endless possibilities. Embrace the future of home design and travel – teleportation has never looked so good! 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div></td>
             <td>Dimensions: 32" x 48" and 36" x 54" | Price: $399 each</td>
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
             <td><img src="casement.jpg" class="img-fluid rounded-start" alt="Casement" style="max-width: 300px;" width="1200px" height="1200px"></td>
             <td>Casement</td>
-            <td>Introducing our revolutionary Casement Windows of the Future—unlock a world beyond your imagination! These exquisite, energy-efficient windows not only provide seamless ventilation and stunning views, but they also feature advanced teleportation technology, allowing you to instantly transport yourself to any destination of your choice! Imagine opening your windows to feel the fresh mountain air in one moment, and sipping coffee by the beach the next—all from the comfort of your home. Crafted with sleek, modern designs and durable materials, our windows are perfect for any aesthetic. Elevate your lifestyle with the ultimate blend of functionality, style, and adventure—your dream getaway is just a window away!  </td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our revolutionary Casement Windows of the Future—unlock a world beyond your imagination! These exquisite, energy-efficient windows not only provide seamless ventilation and stunning views, but they also feature advanced teleportation technology, allowing you to instantly transport yourself to any destination of your choice! Imagine opening your windows to feel the fresh mountain air in one moment, and sipping coffee by the beach the next—all from the comfort of your home. Crafted with sleek, modern designs and durable materials, our windows are perfect for any aesthetic. Elevate your lifestyle with the ultimate blend of functionality, style, and adventure—your dream getaway is just a window away!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div> </td>
             <td>Dimensions: 24"x36", 30"x48", and 36"x60" | Price: $299</td>
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
             <td><img src="garden.jpg" class="img-fluid rounded-start" alt="Garden" style="max-width: 300px;" width="1200px" height="1200px"></td>
             <td>Garden</td>
-            <td>Introducing our enchanting Garden Windows – the perfect blend of functionality and magic! These uniquely crafted windows not only bring the beauty of the outdoors into your home, but they also offer a thrilling teleportation feature, whisking you away to breathtaking gardens around the world with a simple flick of a switch. Imagine sipping your morning coffee in a vibrant tulip field in Holland or basking in the tranquility of a Zen garden in Kyoto, all from the comfort of your living room! Designed with high-quality glass and an elegant frame, these windows provide energy efficiency and a panoramic view of your chosen destination. Transform your space and your experience with our one-of-a-kind Garden Windows, where adventure meets serenity. Order yours today and start your journey with just a glance!</td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our enchanting Garden Windows – the perfect blend of functionality and magic! These uniquely crafted windows not only bring the beauty of the outdoors into your home, but they also offer a thrilling teleportation feature, whisking you away to breathtaking gardens around the world with a simple flick of a switch. Imagine sipping your morning coffee in a vibrant tulip field in Holland or basking in the tranquility of a Zen garden in Kyoto, all from the comfort of your living room! Designed with high-quality glass and an elegant frame, these windows provide energy efficiency and a panoramic view of your chosen destination. Transform your space and your experience with our one-of-a-kind Garden Windows, where adventure meets serenity. Order yours today and start your journey with just a glance!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div></td>
             <td>Dimensions: 30" x 36" and 36" x 48" | Price: $799 for the 30" model and $999 for the 36" model</td>
             <td><a href="credit.html">Cart</a></td>
           </tr>
@@ -84,29 +178,28 @@
           <img src="logo.jpg" height="100px" width="100px">
         </div>
         <div class="col mb-3">
-          <h5>Customer Support</h5>
-          <ul class="nav-flex-column">
-            <li class="nav-item mb-2">comjour3@gmail.com</li>
-            <li class="nav-item mb-2">731-552-6468</li>
-            <li class="nav-item mb-2">Mon. - Fri. <b>9:00-5:00</b></li>
-            <li class="nav-item mb-2">Sat. <b>10:00-2:00</b></li>
-            <li class="nav-item mb-2">Sun. <b>Off</b></li>
-          </ul>
-        </div>
-        <div  class="col mb-3">
-          <h5>About Us</h5>
-          <ul class="nav-flex-column">
-            <li class="nav-item mb-2"><a href="aboutus.html">About Us</a></li>
-            <li class="nav-item mb-2"><a href="howto.html">How Do Our Products Work?</a></li>
-            <li class="nav-item mb-2"><a href="terms&conditions.html">Terms and Conditions</a></li>
-          </ul>
-        </div>
-      <div class="col mb-3">
-        <h5>Other</h5>
+          <h5 style="color:white;">Customer Support</h5>
+            <ul class="nav-flex-column">
+              <li style="color:white;" class="nav-item mb-2">comjour3@gmail.com</li>
+              <li style="color:white;" class="nav-item mb-2">731-552-6468</li>
+              <li style="color:white;" class="nav-item mb-2">Mon. - Fri. <b>9:00-5:00</b></li>
+              <li style="color:white;" class="nav-item mb-2">Sat. <b>10:00-2:00</b></li>
+              <li style="color:white;" class="nav-item mb-2">Sun. <b>Off</b></li>
+            </ul>
+          </div>
+          <div  class="col mb-3">
+            <h5 style="color:white;">About Us</h5>
+            <ul class="nav-flex-column">
+              <li class="nav-item mb-2"><a href="aboutus.html">About Us</a></li>
+              <li class="nav-item mb-2"><a href="howto.html">How Do Our Products Work?</a></li>
+
+            </ul>
+          </div>
+        <div class="col mb-3">
+          <h5 style="color:white;">Other</h5>
         <ul class="nav-flex-column">
           <li class="nav-item mb-2"><a href="wishlist.html">Wishlist</a></li>
           <li class="nav-item mb-2"><a href="credit.html">Purchase</a></li>
-          <li class="nav-item mb-2"><a href="exchanges.html">Exchanges and Returns</a></li>
         </ul>
       </div>
         </footer>

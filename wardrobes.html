@@ -5,7 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ComfortJourney</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    </head>
+        <style>
+          body {
+    background: #043565;
+    font-family: 'Flamenco', serif;
+    }
+      </style>   
+      </head>
     <body>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -39,43 +45,130 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">Wardrobes</th>
+            <th scope="col">Windows</th>
             <th scope="col">Style</th>
             <th scope="col">Description</th>
             <th scope="col">Dimensions and price</th>
-            
-            <th scope="col">Add to Cart</th>
+            <th scope="col">Checkout</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><img src="fitted.jpg" class="img-fluid rounded-start" alt="Fitted" width="1200px" height="1200px"></td>
+            <td><img src="fitted.jpg" class="img-fluid rounded-start" alt="Fitted" width="350px" height="350px"></td>
             <td>Fitted</td>
-            <td>Introducing our innovative Fitted Wardrobe that not only organizes your space but also transports you to your desired destination in an instant! With dimensions of 84" H x 72" W x 24" D, this sleek wardrobe features high-quality wood finishes and advanced teleportation technology. Priced at $4,999, it offers customizable shelving, integrated lighting, and a secure teleportation system. Transform your wardrobe experience and travel at the touch of a button today!  </td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our innovative Fitted Wardrobe that not only organizes your space but also transports you to your desired destination in an instant! With dimensions of 84" H x 72" W x 24" D, this sleek wardrobe features high-quality wood finishes and advanced teleportation technology. Priced at $4,999, it offers customizable shelving, integrated lighting, and a secure teleportation system. Transform your wardrobe experience and travel at the touch of a button today!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>  </td>
             <td>Dimensions: 84" H x 72" W x 24" D | Price $4,999</td>
             
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
-            <td><img src="corner.jpg" class="img-fluid rounded-start" alt="Corner" width="1200px" height="1200px"></td>
+            <td><img src="corner.jpg" class="img-fluid rounded-start" alt="Corner" width="250px" height="250px"></td>
             <td>Corner</td>
-            <td>Introducing our revolutionary Teleporting Corner Wardrobe, designed to maximize your space while magically transporting you wherever you desire! This sleek wardrobe measures 72" x 36" x 24" and features elegant mirrored doors, ample storage for clothes, and built-in teleportation technology. Priced at $2,499, it’s a blend of functionality and futuristic innovation—perfect for the modern home! Transform your room and your travels today!  </td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our revolutionary Teleporting Corner Wardrobe, designed to maximize your space while magically transporting you wherever you desire! This sleek wardrobe measures 72" x 36" x 24" and features elegant mirrored doors, ample storage for clothes, and built-in teleportation technology. Priced at $2,499, it’s a blend of functionality and futuristic innovation—perfect for the modern home! Transform your room and your travels today! 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>  </td>
             <td>Dimensions: 72" x 36" x 24" | Price: $2,499</td>
             
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
-            <td><img src="slid.jpg" class="img-fluid rounded-start" alt="Sliding Door" width="1200px" height="1200px"></td>
+            <td><img src="slid.jpg" class="img-fluid rounded-start" alt="Sliding Door" width="250px" height="250px"></td>
             <td>Sliding Door</td>
-            <td>Introducing our revolutionary Sliding Door Wardrobe Teleporter, designed for the ultimate convenience and style! This sleek wardrobe measures 6 feet wide, 7 feet tall, and 2 feet deep, boasting high-quality mirror sliding doors that not only enhance your space but also provide a portal to any location of your choice. With built-in quantum technology, simply step inside, select your destination on the intuitive digital panel, and be instantly teleported! Available in elegant finishes like matte black, glossy white, and natural oak, this wardrobe not only stores your clothes but also transforms your lifestyle. Priced at $2,499, it’s more than just furniture; it’s your gateway to adventure!</td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing our revolutionary Sliding Door Wardrobe Teleporter, designed for the ultimate convenience and style! This sleek wardrobe measures 6 feet wide, 7 feet tall, and 2 feet deep, boasting high-quality mirror sliding doors that not only enhance your space but also provide a portal to any location of your choice. With built-in quantum technology, simply step inside, select your destination on the intuitive digital panel, and be instantly teleported! Available in elegant finishes like matte black, glossy white, and natural oak, this wardrobe not only stores your clothes but also transforms your lifestyle. Priced at $2,499, it’s more than just furniture; it’s your gateway to adventure! 
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div></td>
             <td>Dimensions: 6 feet wide, 7 feet tall, and 2 feet deep | Price: $2,499</td>
             
             <td><a href="credit.html">Cart</a></td>
           </tr>
           <tr>
-            <td><img src="narnia.jpg" class="img-fluid rounded-start" alt="Hinged" width="1200px" height="500px"></td>
+            <td><img src="narnia.jpg" class="img-fluid rounded-start" alt="Hinged" width="250px" height="250px"></td>
             <td>Hinged</td>
-            <td>Introducing the revolutionary Teleporting Hinged Wardrobe: crafted with precision, this sleek wardrobe measures 60 inches wide, 24 inches deep, and 72 inches tall. With elegant wooden veneers and a contemporary design, it features a double-hinged door that opens to reveal spacious interior storage for all your clothing and accessories. Imagine stepping through to arrive instantly at your desired destination, all while keeping your belongings safe and organized. Priced at $2,499, this wardrobe not only elevates your home decor but also transforms your travel experience—order yours today and redefine the way you journey! </td>
+            <td><!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Description
+              </button>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Introducing the revolutionary Teleporting Hinged Wardrobe: crafted with precision, this sleek wardrobe measures 60 inches wide, 24 inches deep, and 72 inches tall. With elegant wooden veneers and a contemporary design, it features a double-hinged door that opens to reveal spacious interior storage for all your clothing and accessories. Imagine stepping through to arrive instantly at your desired destination, all while keeping your belongings safe and organized. Priced at $2,499, this wardrobe not only elevates your home decor but also transforms your travel experience—order yours today and redefine the way you journey!
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div> </td>
             <td>Dimensions: 60 inches wide, 24 inches deep, and 72 inches tall | Price: $2,499</td>
             
             <td><a href="credit.html">Cart</a></td>
@@ -88,29 +181,27 @@
           <img src="logo.jpg" height="100px" width="100px">
         </div>
         <div class="col mb-3">
-          <h5>Customer Support</h5>
-          <ul class="nav-flex-column">
-            <li class="nav-item mb-2">comjour3@gmail.com</li>
-            <li class="nav-item mb-2">731-552-6468</li>
-            <li class="nav-item mb-2">Mon. - Fri. <b>9:00-5:00</b></li>
-            <li class="nav-item mb-2">Sat. <b>10:00-2:00</b></li>
-            <li class="nav-item mb-2">Sun. <b>Off</b></li>
-          </ul>
-        </div>
-        <div  class="col mb-3">
-          <h5>About Us</h5>
-          <ul class="nav-flex-column">
-            <li class="nav-item mb-2"><a href="aboutus.html">About Us</a></li>
-            <li class="nav-item mb-2"><a href="howto.html">How Do Our Products Work?</a></li>
-            <li class="nav-item mb-2"><a href="terms&conditions.html">Terms and Conditions</a></li>
-          </ul>
-        </div>
-      <div class="col mb-3">
-        <h5>Other</h5>
+          <h5 style="color:white;">Customer Support</h5>
+            <ul class="nav-flex-column">
+              <li style="color:white;" class="nav-item mb-2">comjour3@gmail.com</li>
+              <li style="color:white;" class="nav-item mb-2">731-552-6468</li>
+              <li style="color:white;" class="nav-item mb-2">Mon. - Fri. <b>9:00-5:00</b></li>
+              <li style="color:white;" class="nav-item mb-2">Sat. <b>10:00-2:00</b></li>
+              <li style="color:white;" class="nav-item mb-2">Sun. <b>Off</b></li>
+            </ul>
+          </div>
+          <div  class="col mb-3">
+            <h5 style="color:white;">About Us</h5>
+            <ul class="nav-flex-column">
+              <li class="nav-item mb-2"><a href="aboutus.html">About Us</a></li>
+              <li class="nav-item mb-2"><a href="howto.html">How Do Our Products Work?</a></li>
+            </ul>
+          </div>
+        <div class="col mb-3">
+          <h5 style="color:white;">Other</h5>
         <ul class="nav-flex-column">
           <li class="nav-item mb-2"><a href="wishlist.html">Wishlist</a></li>
           <li class="nav-item mb-2"><a href="credit.html">Purchase</a></li>
-          <li class="nav-item mb-2"><a href="exchanges.html">Exchanges and Returns</a></li>
         </ul>
       </div>
         </footer>
